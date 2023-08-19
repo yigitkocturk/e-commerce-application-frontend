@@ -1,0 +1,243 @@
+.brandlogo {
+  border-radius: 12px;
+}
+
+.added-products-container {
+font-family: Arial, sans-serif;
+padding: 20px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.add-product-btn {
+margin-bottom: 20px;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.add-product-btn:hover {
+background-color: #0056b3;
+}
+
+.product-form {
+border: 1px solid #ccc;
+padding: 20px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.form-group {
+margin-bottom: 10px;
+}
+
+.form-group label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.size-stock-group {
+display: flex;
+margin-bottom: 10px;
+}
+
+.size-stock-group > div {
+flex: 1;
+margin-right: 5px;
+}
+
+.size-stock-group button {
+background-color: #dc3545;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.size-stock-group button:hover {
+background-color: #c82333;
+}
+
+.size-stock-group input {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+th,
+td {
+border: 1px solid #ccc;
+padding: 8px;
+text-align: center;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+
+/* Responsive adjustments */
+
+@media screen and (max-width: 768px) {
+.added-products-container {
+  padding: 10px;
+}
+
+.product-form {
+  padding: 10px;
+}
+
+table {
+  font-size: 12px;
+}
+
+th,
+td {
+  padding: 5px;
+}
+}
+
+.ui-w-40 {
+width: 40px !important;
+height: auto;
+}
+
+.card{
+box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);    
+}
+
+.ui-product-color {
+display: inline-block;
+overflow: hidden;
+margin: .144em;
+width: .875rem;
+height: .875rem;
+border-radius: 10rem;
+-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;
+box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;
+vertical-align: middle;
+}
+
+
+.product-info {
+display: flex;
+align-items: center;
+flex: 1;
+}
+
+.product-info img {
+margin-right: 10px;
+/* Dilediğiniz boşluk miktarını ayarlayabilirsiniz */
+}
+
+.brand, .product-name {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+/* Bu, eğer ekran küçülürse ürün bilgilerini alt alta dizmek için kullanılır */
+@media screen and (max-width: 768px) {
+.product-info {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-info img {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+}
+
+
+.login-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.login-form {
+max-width: 300px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #fff;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .form-group {
+margin-bottom: 15px;
+}
+
+.login-form label {
+display: block;
+margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+width: 100%;
+padding: 8px;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+.login-form button {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+color: #fff;
+background-color: #007bff;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.login-form button:hover {
+background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+/* Adjust font size for mobile view */
+h2 {
+  font-size: 20px;
+}
+
+/* Adjust paddings for mobile view */
+.added-products-container {
+  padding: 10px;
+}
+
+/* Adjust form inputs for mobile view */
+.product-form input,
+.product-form select {
+  width: 100%;
+  padding: 10px;
+}
+
+.mobile-hide {
+  display: none; 
+}
+}

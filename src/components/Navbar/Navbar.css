@@ -1,0 +1,53 @@
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.form-control {
+  height: auto;
+  padding: 0.375rem 0.75rem;
+  font-size: 14px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 0.375rem 0.75rem;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-item-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+}
